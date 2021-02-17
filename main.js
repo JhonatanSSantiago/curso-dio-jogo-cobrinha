@@ -71,22 +71,6 @@ function iniciarJogo(){
             clearInterval(jogo);
             alert('Game Over :(');
         }
-        if(snake[i].x == 16 * box ){ //limite esquerdo
-            clearInterval(jogo);
-            alert('Game Over :(');
-        }
-        if(snake[i].x == 0){ //limite direito
-            clearInterval(jogo);
-            alert('Game Over :(');
-        }
-        if(snake[i].y == 16 * box ){ //limite superiod
-            clearInterval(jogo);
-            alert('Game Over :(');
-        }
-        if(snake[i].y == 0){ //limite inferior
-            clearInterval(jogo);
-            alert('Game Over :(');
-        }
 
     }
 
